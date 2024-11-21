@@ -1,8 +1,3 @@
-a = "CFHJOQVODITQPJMCFMPX"
-for i in a:
-    if ord(i)>65:
-        print(chr(ord(i)-1), end="")
-    else:
-        print(chr(ord(i)-1), end="")
-
-print(a)
+{import base64
+a1 = base64.b64decode("b3BlbmluZ19kb3VnbGFzX3Nsb3Zha2lh")
+print(a1)}
